@@ -14,6 +14,6 @@ export default defineConfig({
   dialect: "postgresql",
   // driver: 'pg',
   dbCredentials: {
-    url: process.env.POSTGRES_CONN!,
+    url: process.env.POSTGRES_PRISMA_URL!,
   },
 });
